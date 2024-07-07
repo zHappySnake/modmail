@@ -1,0 +1,24 @@
+{
+  "name": "modmail",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "tsc -w & nodemon -q -w dist dist/src/index.js",
+    "start": "tsc && node dist/src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "nodemon": "^3.1.4",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "mysql": "^2.18.1",
+    "typeorm": "^0.3.20"
+  }
+}
